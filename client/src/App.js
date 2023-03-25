@@ -1,16 +1,20 @@
 import React from "react"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import "./App.css"
+import { io } from "socket.io-client";
 import HomePage from "./pages/HomePage.jsx"
+import Specialist from "./pages/Specialists.jsx"
 
-export default function App() {
+function App() {
   return (
-    <BrowserRouter>
-			<div className="App">
+    <div className="App">
+      <BrowserRouter>
 				<Routes>          
-					<Route path="/" component={HomePage} exact />
+					<Route path="/" element={<HomePage />} />
+          <Route path="/talk" element={<Specialist />} />
 				</Routes>
-			</div>	
-		</BrowserRouter>
+		  </BrowserRouter>
+    </div>
   );
 }
+export default App;
