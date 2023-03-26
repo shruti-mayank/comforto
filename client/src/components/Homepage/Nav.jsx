@@ -7,7 +7,7 @@ export default function Nav({ fixed }) {
       <nav className="absolute flex flex-wrap items-center justify-between h-32 py-3 mb-3 bg-violet-500">
         <div className="container flex flex-wrap items-center justify-between px-4 mx-auto">
           <div className="relative flex justify-between w-full lg:w-auto lg:static lg:justify-start">
-            <a href="#">
+            <a href="/">
               <img src = 'logo.png' className="w-20 h-20"/>
             </a>
             <button
