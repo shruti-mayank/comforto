@@ -1,13 +1,8 @@
 import React from "react";
 import "./MainContainer.css";
-import Banner from "imag1";
+import Banner from "./imag1.jpg";
 import CardMain from "./CardMain";
-import Card1 from "card1";
-import Card2 from "card1";
-import Card3 from "card1";
-import Card4 from "card1";
-import Card5 from "card1";
-import Card6 from "card1";
+import Card1 from "./card1.jpg";
 import MainRightTopCard from "./MainRightTopCard";
 import MainRightBottomCard from "./MainRightBottomCard";
 
@@ -43,7 +38,7 @@ function MainContainer() {
               <a href="#" className="button">
                 All
               </a>
-              <a href="#" className="button2">
+              <a href="/blog" className="button2">
                 Blogs
               </a>
               {/* <a href="#" className="button2">
@@ -56,12 +51,12 @@ function MainContainer() {
           </div>
 
           <main>
-            <CardMain imgSrc={Card1} title={"Cubic Thunder"} hearts={"65"} />
-            <CardMain imgSrc={Card2} title={"Pokemon Ball"} hearts={"65"} />
-            <CardMain imgSrc={Card3} title={"Pyramid God"} hearts={"65"} />
-            <CardMain imgSrc={Card4} title={"Stunning Cube"} hearts={"65"} />
-            <CardMain imgSrc={Card5} title={"Start Crystal"} hearts={"65"} />
-            <CardMain imgSrc={Card6} title={"Crystal Bird"} hearts={"65"} />
+            <CardMain imgSrc={Card1} title={"Person 1"} hearts={"65"} />
+            <CardMain imgSrc={Card1} title={"Person 2"} hearts={"65"} />
+            <CardMain imgSrc={Card1} title={"Person 3"} hearts={"65"} />
+            <CardMain imgSrc={Card1} title={"Person 4"} hearts={"65"} />
+            <CardMain imgSrc={Card1} title={"Person 5"} hearts={"65"} />
+            <CardMain imgSrc={Card1} title={"Person 6"} hearts={"65"} />
           </main>
         </div>
       </div>

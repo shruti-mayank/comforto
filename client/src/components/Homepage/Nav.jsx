@@ -4,7 +4,7 @@ export default function Nav({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <div>
-      <nav className="relative flex flex-wrap items-center justify-between h-32 py-3 mb-3 bg-violet-500">
+      <nav className="absolute flex flex-wrap items-center justify-between h-32 py-3 mb-3 bg-violet-500">
         <div className="container flex flex-wrap items-center justify-between px-4 mx-auto">
           <div className="relative flex justify-between w-full lg:w-auto lg:static lg:justify-start">
             <a href="#">
@@ -29,7 +29,7 @@ export default function Nav({ fixed }) {
               <li className="nav-item">
                 <a
                   className="flex items-center px-3 py-2 font-bold leading-snug text-white text-s hover:opacity-75"
-                  href="/login"
+                  href="/DoctorDashboard"
                 >
                   Login
                 </a>

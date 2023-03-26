@@ -5,10 +5,9 @@ import MainContainer from "./MainContainer";
 
 function Container() {
   return (
-    <div className="container">
+    <div className="containerDash">
       <TopContainer />
       <MainContainer />
-      <h1>happy</h1>
     </div>
   );
 }

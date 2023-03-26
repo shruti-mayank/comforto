@@ -8,7 +8,7 @@ export default function Cards(){
     // function logNewUser()
     // {
     //     setUser(user);
-    // }
+    // 
     return(
         <div class="grid grid-rows-4 grid-flow-col gap-4 m-10 sm:grid-rows-2 xs:grid-rows-1">
             <div className="overflow-hidden rounded shadow-lg">

@@ -18,13 +18,14 @@ menu ul{
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
+
 
 }
 
 menu ul li{
     list-style: none;
-    margin:20px 0px;
+    margin:5px 0px;
     position: relative;
     color:#8c8a95;
     width:100%;

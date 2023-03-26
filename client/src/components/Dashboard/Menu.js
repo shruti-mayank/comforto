@@ -1,6 +1,6 @@
 import React  from "react";
 import "./Menu.css";
-import Logo from "favicon.png";
+// import Logo from "favicon.png";
 import {FaSistrix,FaCalendarWeek,FaComments,FaCog,FaSignOutAlt} from "react-icons/fa";
 // FaRocketchat,FaTelegramPlane,FaWhatsappSquare
 
@@ -20,7 +20,7 @@ function menu() {
     
   return (
   <menu>
-        <img src={Logo} alt=""/>;
+        <a href="/"> <img src="favicon.png" alt=""/></a>;
         
         <ul id="mainMenu">
             <Icon icon={<FaSistrix/>} />

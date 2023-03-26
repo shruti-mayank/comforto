@@ -1,7 +1,6 @@
-import logo from "./logo.svg";
-import "./App.css";
-import Menu from "./components/Menu";
-import Container from "./components/Container";
+import "../App.css";
+import Menu from "../components/Dashboard/Menu";
+import Container from "../components/Dashboard/Container";
 
 function DocDash() {
   return (

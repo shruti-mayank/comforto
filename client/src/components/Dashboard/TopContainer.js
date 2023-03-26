@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { BiSearchAlt } from "react-icons/bi";
 import { FaBell, FaChevronDown } from "react-icons/fa";
-import women from "../img/card1.jpg";
+import women from "./card1.jpg";
 
 function TopContainer() {
   useEffect(() => {
