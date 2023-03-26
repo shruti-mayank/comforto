@@ -9,8 +9,14 @@
     "firebase": "^9.18.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+<<<<<<< HEAD
     "react-icons": "^4.8.0",
     "react-scripts": "5.0.1",
+=======
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.1",
+    "socket.io-client": "^4.6.1",
+>>>>>>> cb78f66273d7ff36f970e14e2de86333fa0d7c78
     "web-vitals": "^2.1.4"
   },
   "scripts": {
