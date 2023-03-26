@@ -10,8 +10,8 @@ export default function Cards(){
     //     setUser(user);
     // 
     return(
-        <div class="grid grid-rows-4 grid-flow-col gap-4 m-10 sm:grid-rows-2 xs:grid-rows-1">
-            <div className="overflow-hidden rounded shadow-lg">
+        <div class="relative grid grid-rows-4 grid-flow-col gap-24 m-16 sm:grid-rows-2 xs:grid-rows-1 mx-40 mt-48">
+            <div className="overflow-hidden bg-white rounded shadow-lg">
                 <img className="w-full h-60" src={img} alt="Specialist1" />
                 <div className="px-6 py-4">
                     <div class="font-bold text-xl mb-2">Specialist 1</div>
@@ -23,7 +23,7 @@ export default function Cards(){
                     </button>
                 </div>
             </div>
-            <div className="overflow-hidden rounded shadow-lg">
+            <div className="overflow-hidden bg-white rounded shadow-lg">
                 <img className="w-full h-60" src={img} alt="Specialist1" />
                 <div className="px-6 py-4">
                     <div class="font-bold text-xl mb-2">Specialist 1</div>
@@ -35,7 +35,7 @@ export default function Cards(){
                     </button>
                 </div>
             </div>
-            <div className="overflow-hidden rounded shadow-lg">
+            <div className="overflow-hidden bg-white rounded shadow-lg">
                 <img className="w-full h-60" src={img} alt="Specialist1" />
                 <div className="px-6 py-4">
                     <div class="font-bold text-xl mb-2">Specialist 1</div>
@@ -47,7 +47,7 @@ export default function Cards(){
                     </button>
                 </div>
             </div>
-            <div className="overflow-hidden rounded shadow-lg">
+            <div className="overflow-hidden bg-white rounded shadow-lg">
                 <img className="w-full h-60" src={img} alt="Specialist1" />
                 <div className="px-6 py-4">
                     <div class="font-bold text-xl mb-2">Specialist 1</div>
@@ -59,7 +59,7 @@ export default function Cards(){
                     </button>
                 </div>
             </div>
-            <div className="overflow-hidden rounded shadow-lg">
+            <div className="overflow-hidden bg-white rounded shadow-lg">
                 <img className="w-full h-60" src={img} alt="Specialist1" />
                 <div className="px-6 py-4">
                     <div class="font-bold text-xl mb-2">Specialist 1</div>
@@ -71,7 +71,7 @@ export default function Cards(){
                     </button>
                 </div>
             </div>
-            <div className="overflow-hidden rounded shadow-lg">
+            <div className="overflow-hidden bg-white rounded shadow-lg">
                 <img className="w-full h-60" src={img} alt="Specialist1" />
                 <div className="px-6 py-4">
                     <div class="font-bold text-xl mb-2">Specialist 1</div>
