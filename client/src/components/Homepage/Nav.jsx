@@ -4,14 +4,11 @@ export default function Nav({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <div>
-      <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 mb-3 bg-violet-500">
+      <nav className="relative flex flex-wrap items-center justify-between h-32 py-3 mb-3 bg-violet-500">
         <div className="container flex flex-wrap items-center justify-between px-4 mx-auto">
-          <div className="relative flex justify-between w-full lg:w-auto lg:static lg:block lg:justify-start">
-            <a
-              className="inline-block py-2 mr-4 text-sm font-bold leading-relaxed text-white uppercase whitespace-nowrap"
-              href="#pablo"
-            >
-              violet Tailwind Starter Kit
+          <div className="relative flex justify-between w-full lg:w-auto lg:static lg:justify-start">
+            <a href="#">
+              <img src = 'logo.png' className="w-20 h-20"/>
             </a>
             <button
               className="block px-3 py-1 text-xl leading-none text-white bg-transparent border border-transparent border-solid rounded outline-none cursor-pointer lg:hidden focus:outline-none"
@@ -31,26 +28,10 @@ export default function Nav({ fixed }) {
             <ul className="flex flex-col list-none lg:flex-row lg:ml-auto">
               <li className="nav-item">
                 <a
-                  className="flex items-center px-3 py-2 text-xs font-bold leading-snug text-white uppercase hover:opacity-75"
-                  href="#pablo"
+                  className="flex items-center px-3 py-2 font-bold leading-snug text-white text-s hover:opacity-75"
+                  href="/login"
                 >
-                  <i className="text-lg text-white opacity-75 fab fa-facebook-square leading-lg"></i><span className="ml-2">Share</span>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="flex items-center px-3 py-2 text-xs font-bold leading-snug text-white uppercase hover:opacity-75"
-                  href="#pablo"
-                >
-                  <i className="text-lg text-white opacity-75 fab fa-twitter leading-lg"></i><span className="ml-2">Tweet</span>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="flex items-center px-3 py-2 text-xs font-bold leading-snug text-white uppercase hover:opacity-75"
-                  href="#pablo"
-                >
-                  <i className="text-lg text-white opacity-75 fab fa-pinterest leading-lg"></i><span className="ml-2">Pin</span>
+                  Login
                 </a>
               </li>
             </ul>
